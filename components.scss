@@ -227,10 +227,6 @@ $size: 2em;
     display: none !important;
   }
 
-  .block {
-    //width: fit-content;
-  }
-
   .attention {
     font-size: 1.2em;
   }
@@ -297,10 +293,6 @@ $size: 2em;
     cursor: pointer;
   }
 
-  .minus:hover, .plus:hover{
-    //@include hoverEffect();
-  }
-
   p {
     margin: auto 0 auto 0;
     width: auto;
@@ -348,10 +340,6 @@ $size: 2em;
 .page {
   flex-grow: 1;
   max-width: 100%;
-}
-
-.itemGroupColumn.mainBody > * {
-  //max-width: 100%;
 }
 
 .mainBody {
@@ -453,10 +441,10 @@ $size: 2em;
     border-bottom-style: double;
     border-bottom-color: $secondary-color;
     margin-bottom: 2em;
+    opacity: 1;
 
     .brandMobile {
       width: 0;
-      opacity: 0;
 
       h2 {
         color: $secondary-color;
@@ -474,10 +462,10 @@ $size: 2em;
     top: 0;
     margin: 0 0 4em;
     z-index: 1001;
+    opacity: 1;
 
     .brandMobile {
       width: 100px;
-      opacity: 1;
       h2 {
         color: $secondary-color;
         font-size: 2em;
