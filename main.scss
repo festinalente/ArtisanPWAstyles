@@ -42,18 +42,6 @@ h4 {
   margin-left: 1em;
 }
 
-.microdocs {
-  width: calc(10em + 1.2em);
-  margin-right: -10em;
-
-  question:after {
-    content: "\e085";
-    font-family: 'Glyphicons Halflings';
-    color: $title-color;
-    font-size: 1.2em;
-    padding-right: 0em;
-  }
-}
 
 .underline {
   text-decoration: underline;
